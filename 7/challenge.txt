@@ -1,0 +1,5 @@
+##Edit remote files challenge
+
+
+Edit file in folder A to ntugrid5
+Edit file in folder B to lxplus
