@@ -1,0 +1,11 @@
+{
+covarianceMatrix[0][0] == root["covMatrix_00"].asDouble();
+covarianceMatrix[0][1] == root["covMatrix_01"].asDouble();
+covarianceMatrix[0][2] == root["covMatrix_02"].asDouble();
+covarianceMatrix[1][0] == root["covMatrix_10"].asDouble();
+covarianceMatrix[1][1] == root["covMatrix_11"].asDouble();
+covarianceMatrix[1][2] == root["covMatrix_12"].asDouble();
+covarianceMatrix[2][0] == root["covMatrix_20"].asDouble();
+covarianceMatrix[2][1] == root["covMatrix_21"].asDouble();
+covarianceMatrix[2][2] == root["covMatrix_22"].asDouble();
+}
