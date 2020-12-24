@@ -2,5 +2,5 @@
 set -euo pipefail
 
 g++ main.cc
-./a.out
+./a.out | cowsay
 rm a.out

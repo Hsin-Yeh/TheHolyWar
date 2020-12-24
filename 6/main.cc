@@ -26,23 +26,37 @@ string curseWords(int i){
 }
 
 string blessings(int i){
-  return "tmp";
+  string s;
+   switch(i) {
+     case 0:
+       s = "It will be a sunny day tomorrow!";
+       break;
+     case 1:
+       s = "Congratulations to Page and Lao!";
+       break;
+     case 2:
+       s = "No meetings tomorrow~~~~~~~~~~~ Merry Christmas!";
+   }
+   return s;
 }
 
 int Get_some_Chocolate(){
-  return 0;
+  return 100;
 }
 
 int Pour_a_glass_of_wine(){
-  return 0;
+  return 100;
 }
 
 int Prepare_Christmas_gifts(){
-  return 0;
+  return 100;
 }
 
 bool Trial(int a, int b, int c){
-  return 0;
+  bool trial;
+  if(a+b+c == 300) trial = 1;
+  else trial = 0;
+  return trial;
 }
 
 int main(int argc, char *argv[]) {
