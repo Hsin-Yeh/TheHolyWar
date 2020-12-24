@@ -1,0 +1,9 @@
+M = match whole word
+C = case sensitive
+
+
+chapter -> world ( M , C )
+python -> snek ( NM , NC )
+the -> a ( M , C )
+world -> RPI ( NM , C )
+print -> memes ( M , NC )
