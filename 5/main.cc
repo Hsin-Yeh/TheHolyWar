@@ -34,11 +34,11 @@ int Get_some_Chocolate(){
 }
 
 int Pour_a_glass_of_wine(){
-  return 101;
+  return 0;
 }
 
 int Prepare_Christmas_gifts(){
-  return 0;
+  return 1;
 }
 
 bool Trial(int a, int b, int c){
