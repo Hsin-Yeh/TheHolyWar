@@ -1,0 +1,35 @@
+
+## Create folders
+
+2/
+├── input
+│   ├── Pedestal
+│   │   ├── ntuple
+│   │   └── yaml
+│   ├── Injection
+│   │   ├── ntuple
+│   │   ├── yaml
+│   ├── Cosmic
+│   │   ├── ntuple
+│   │   └── yaml
+│   ├── ChristmasGift
+│   │  
+└── output
+    └── PhD Thesis
+        └── 404NOTFOUND
+
+14 directories
+
+## Sort files
+
+Sort All *11-12-2018* files to Pedestal
+Sort All *30-10-2019* files to Injection folder
+Sort All *11-12-2018* files to Cosmic
+
+Sort .root to ntuple
+Sort .yaml to yaml
+
+Change file names
+Pedestal : e.g. Module88_11-12-2019_16-33_pedestal.root --> Module88_Pedestal_11-12-2019_16-33.root
+Injection : Module88_30-10-2019_19-9_pedestal.root --> Module88_Injection_30-10-2019_19-9.root
+Cosmic : Module88_24-12-2019_21-24_pedestal.root --> Module88_Cosmic_24-12-2019_21-24.root
