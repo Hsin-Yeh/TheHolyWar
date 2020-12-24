@@ -26,22 +26,11 @@ string curseWords(int i){
 }
 
 string blessings(int i){
-  string s;
-  switch(i) {
-    case 0:
-      s = "It will be a sunny day tomorrow!";
-      break;
-    case 1:
-      s = "Congratulations to Page and Lao!";
-      break;
-    case 2:
-      s = "No meetings tomorrow~~~~~~~~~~~ Happy Christmas!";
-  }
-  return s;
+  return "tmp";
 }
 
 int Get_some_Chocolate(){
-  return 0;
+  return 100;
 }
 
 int Pour_a_glass_of_wine(){
