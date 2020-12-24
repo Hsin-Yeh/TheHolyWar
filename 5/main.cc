@@ -38,11 +38,14 @@ int Pour_a_glass_of_wine(){
 }
 
 int Prepare_Christmas_gifts(){
-  return 1;
+  return 0;
 }
 
 bool Trial(int a, int b, int c){
-  return 0;
+  bool b;
+  if ( b > a > c ) b = 1;
+  else b = 0;
+  return b;
 }
 
 int main(int argc, char *argv[]) {
