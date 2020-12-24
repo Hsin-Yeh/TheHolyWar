@@ -1,4 +1,0 @@
-TVectorD vec_mass(3);
-vec_mass(0) = w_mass - vec_mean_values(0);
-vec_mass(1) = t_mass - vec_mean_values(1);
-vec_mass(2) = tprime_mass - vec_mean_values(2);

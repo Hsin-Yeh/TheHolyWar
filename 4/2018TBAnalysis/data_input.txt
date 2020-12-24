@@ -1,1 +1,0 @@
-output_root/ntuple_sim_config22_pdgID11_beamMomentum100_listFTFP_BERT_EMN_0000_0.root
