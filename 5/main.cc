@@ -14,13 +14,13 @@ string curseWords(int i){
   string s;
   switch(i) {
     case 0:
-      s = "The rain in Taipei will last for one month";
+      s = "\nThe rain in Taipei will last for one month\n";
       break;
     case 1:
-      s = "Hahaha, you will take 10 years to graduate";
+      s = "\nHahaha, you will take 10 years to graduate\n";
       break;
     case 2:
-      s = "Meetings will NOT be cancelled tommorrow! \nNo Christmas for you!!\nWork!!!!!";
+      s = "\nMeetings will NOT be cancelled tommorrow! \nNo Christmas for you!!\nWork!!!!!\n";
   }
   return s;
 }
@@ -42,10 +42,7 @@ int Prepare_Christmas_gifts(){
 }
 
 bool Trial(int a, int b, int c){
-  bool b;
-  if ( b > a > c ) b = 1;
-  else b = 0;
-  return b;
+  return 0;
 }
 
 int main(int argc, char *argv[]) {
