@@ -30,11 +30,11 @@ string blessings(int i){
 }
 
 int Get_some_Chocolate(){
-  return 100;
+  return 0;
 }
 
 int Pour_a_glass_of_wine(){
-  return 0;
+  return 101;
 }
 
 int Prepare_Christmas_gifts(){
